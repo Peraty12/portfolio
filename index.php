@@ -147,11 +147,11 @@
 						<p>LPO CLAUDE NOUGARO</p>
 						<i class="material-icons">&#xe55e;</i>
 						<a href="https://maps.app.goo.gl/hsMTQxhsB6UXAUBj8" target="_blank">376 Av. des Lumières, 82300 Monteils</a>
-						<p>Bulletin de notes :
-							<a href="doc/bts/notes/XIONG Teddy-BTS1 S1.pdf" target="_blank"> BTS1 S1</a> -
-							<a href="doc/bts/notes/XIONG Teddy-BTS1 S2.pdf" target="_blank"> BTS1 S2</a> -
-							<a href="doc/bts/notes/XIONG Teddy-BTS2 S1.pdf" target="_blank"> BTS2 S1</a> -
-							<a href="doc/bts/notes/XIONG Teddy-BTS2 S2.pdf" target="_blank"> BTS2 S2</a>
+						<p>Bulletin de notes : </p>
+						<p><a href="doc/bts/notes/XIONG Teddy-BTS1 S1.pdf" target="_blank"> BTS1 Semèstre 1</a></p>
+						<p><a href="doc/bts/notes/XIONG Teddy-BTS1 S2.pdf" target="_blank"> BTS1 Semèstre 2</a></p>
+						<p><a href="doc/bts/notes/XIONG Teddy-BTS2 S1.pdf" target="_blank"> BTS2 Semèstre 1</a></p>
+						<p><a href="doc/bts/notes/XIONG Teddy-BTS2 S2.pdf" target="_blank"> BTS2 Semèstre 2</a></p>
 						</P>
 					</div>
 					<div class="img_ecole">
@@ -167,7 +167,8 @@
 						<p>LPO ANTOINE BOURDELLE</p>
 						<i class="material-icons">&#xe55e;</i>
 						<a href="https://maps.app.goo.gl/T63BGgM9tDfAp8T98" target="_blank">3 Bd Edouard Herriot, 82000 Montauban</a>
-						<p>Relevé
+						<p>Relevé de notes du Bac :<a href="doc/releve_notes_bac.pdf" target="_blank"> notes</a></p>
+						<p>Voeux de poursuite àprès le Bac :<a href="doc/bac_pro/voeu_poursuite_etude" target="_blank"> avis</a></p>
 					</div>
 					<div>
 						<img src="img/autre/lycee_antoine_bourdelle.jpg">
@@ -748,23 +749,63 @@
 						<div>
 							<img src="img/autre/guido.jpg" class="guido">
 						</div>
-						<div>
-							<ul>
-								<li>Créer en 1991 par Guido van Rossum</li>
-								<li>Syntaxe facile et intuitif</li>
-								<li>Language interprété, haut niveau, multi-paradigme(objet, fonctionnel, impératif)</li>
-								<li>Large bibliothèques et frameworks (Django, Flask, NumPy, Pandas, PyTorch, TensorFlow, etc.).</li>
-								<li> Domaine developpement web, data science, IA, automatisation, etc...</li>
-							</ul>
-							<p><a href="https://www.python.org/" target="_blank">Site officiel de Python</a></p>
-							<p><a href="https://blog.python.org/" target="_blank">Anonce nouvelles versions et évolutions</a></p>
-							<p><a href="https://www.zdnet.fr/actualites/programmation-python-reste-en-tete-39890391.htm" target="_blank">Python reste en tête</a></p>
+						<div class="texte_python">
+							<p>Créer en 1991 par Guido van Rossum</p>
+							<p>Syntaxe facile et intuitif</p>
+							<p>Language interprété, haut niveau, multi-paradigme(objet, fonctionnel, impératif)</p>
+							<p>Large bibliothèques et frameworks (Django, Flask, NumPy, Pandas, PyTorch, TensorFlow).</p>
+							<p> Domaine developpement web, data science, IA, automatisation, etc...</p>
+
+							<p>Site officiel de Python : <a href="https://www.python.org/" target="_blank">python.org</a></p>
+							<p>Annonces des nouvelles versions et évolutions : <a href="https://blog.python.org/" target="_blank">blog.python.org</a></p>
+							<p>Python reste en tête : <a href="https://www.zdnet.fr/actualites/programmation-python-reste-en-tete-39890391.htm" target="_blank">zdnet.fr</a></p>
 						</div>
 					</div>
 					<img src="img/autre/tableau_python.png" class="img_python">
 					<p>Source : <a href="https://www.tiobe.com/tiobe-index/">www.tiobe.com</a></p>
 				</div>
-				<div>
+
+
+				<div class="comptes_py">
+					<h1>Évolution du langage</h1>
+					<p>Python, créé en 1991, est arrivé à sa version 3.12 (2023), avec des améliorations majeures en performance et en typage.
+						La communauté continue de faire évoluer le langage pour répondre aux besoins modernes,
+						notamment avec des projets comme PyPy (interpréteur rapide) et Cython (compilation vers C).
+						Le langage reste simple et accessible, ce qui explique son immense popularité.</p>
+					<p>Les versions : <a href="https://www.python.org/" target="_blank">python.org</a></p>
+					<p>Annonces officielles des mises à jour : <a href="https://blog.python.org/" target="_blank">blog.python.org</a></p>
+					<p>Les évolutions du code source : <a href="https://github.com/python/cpython" target="_blank">github.com/python/cpython</a></p>
+					<p>Popularité : <a href="https://www.tiobe.com/tiobe-index/" target="_blank">tiobe.com</a></p>
+				</div>
+				<div class="comptes_py">
+					<h1>Python et le web</h1>
+					<p>Grâce à des frameworks comme Django et Flask, Python est largement utilisé pour créer des sites web,
+						des API et des applications web performantes. Ces outils permettent de développer
+						rapidement des services robustes, avec une bonne intégration des bases de données, de la
+						sécurité et des outils de test.</p>
+					<p>Framework Django : <a href="https://www.djangoproject.com/" target="_blank">djangoproject.com</a></p>
+					<p>Flask : <a href="https://flask.palletsprojects.com" target="_blank">flask.palletsprojects.com</a></p>
+					<p>Les usages web : <a href="https://realpython.com/tutorials/web-dev/" target="_blank">realpython.com</a></p>
+					<p>Blogs : <a href="https://blog.jetbrains.com/pycharm/" target="_blank">jetbrains.com</a></p>
+				</div>
+				<div class="comptes_py">
+					<h1>Python et la data science / IA</h1>
+					<p>Python domine le domaine de l’intelligence artificielle et de la data science,
+						avec des bibliothèques incontournables comme TensorFlow, PyTorch, Scikit-learn,
+						Pandas et NumPy. Il est utilisé pour l’analyse de données, l’apprentissage automatique,
+						la visualisation et le traitement de gros volumes d’informations.</p>
+					<p>Framework TensorFlow : <a href="https://www.tensorflow.org/" target="_blank">tensorflow.org</a></p>
+					<p>Pytorch : <a href="https://pytorch.org/" target="_blank">pytorch.org</a></p>
+					<p>Scikit-learn : <a href="https://scikit-learn.org/" target="_blank">scikit-learn.org</a></p>
+					<p>Python en IA : <a href="https://survey.stackoverflow.co/2023/" target="_blank">survey.stackoverflow.co</a></p>
+				</div>
+
+				<div class="comptes_py">
+					<h1>Compte et blogs à suivre</h1>
+					<p><a href="https://x.com/ThePSF/" target="_blank">x.com/@ThePSF</a></p>
+					<p><a href="https://linkedin.com/company/python-software-foundation" target="_blank">linkedin.com/Python-Software-Foundation</a></p>
+					<p><a href="https://linkedin.com/company/pytorch" target="_blank">linkedin.com/pyTorch</a></p>
+					<p><a href="https://pycoders.com/" target="_blank">pycoders.com</a></p>
 
 				</div>
 

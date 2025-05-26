@@ -1,6 +1,14 @@
 body {
     margin: 0;
-    font-family: arial, sans-serif;
+    font-family: cursive, sans-serif;
+    /* font-family: arial, sans-serif; */
+    font-size: 18px;
+    background-color: #cecdcb;
+}
+
+body a {
+    text-decoration: none;
+    color: #ff0707;
 }
 
 /* Style pour le menu latéral */
@@ -326,6 +334,7 @@ body {
 
 .entreprise_bottom {
     padding: 50px;
+    background-color: #ffffff;
 }
 
 
@@ -432,6 +441,7 @@ body {
     border-radius: 10px;
     margin: 50px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    background-color: #ffffff;
 }
 
 .lien_projet h1 {
@@ -458,6 +468,7 @@ body {
     margin: auto;
     padding: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    background-color: #ffffff;
 }
 
 .bts_notion img {
@@ -596,8 +607,8 @@ body {
     margin-top: 10px;
     font-size: 14px;
 
-    text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 30px rgb(255, 0, 0);
-    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(253, 253, 253);
+    color: rgb(253, 0, 0);
     font-weight: bold;
 }
 
@@ -664,17 +675,21 @@ body {
 
 .description_veille {
     padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .guido {
-    height: 200px;
+    height: 350px;
     width: auto;
     margin:  40px;
+    border-radius: 20px;
 }
 
 
 .img_python {
-    width: 80%;
+    width: 85%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -694,13 +709,16 @@ body {
     
 }
 
+.texte_python {
+    width: 40%;
+}
+
 .veille {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    font-size: 13px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
-    background-color: #7ea9d3;
+    background-color: #ffffff;
 }
 
 .veille_python {
@@ -708,5 +726,19 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
-    background-color: #e8da5c;
+    background-color: #ffffff;
+}
+
+.comptes_py {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    margin: 50px;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.comptes_py h1 {
+    text-align: center;
 }
