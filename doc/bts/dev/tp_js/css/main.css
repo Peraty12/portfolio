@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #aaa;
+    font-family: Verdana;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    height: 5%;
+    padding: 0 10px;
+    color: #000;
+    font-size: 2em;
+}
+
+.touitz {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+    position: relative;
+    top: 15px;
+    letter-spacing: 1px;
+    color: #649542;
+    text-shadow: #555392 3px 2px 3px;
+}
+
+select,
+select:focus {
+    background-color: #fff;
+    font-size: 1em;
+    width: 25%;
+}
+
+#content {
+    display: flex;
+    height: 95%;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#users {
+    padding: 10px 10px 0 0;
+    width: 25%;
+    height: 100%;
+    overflow: auto;
+}
+
+#attente {
+    display: none;
+    font-size: 1.8em;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: rgb(186, 74, 74);
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.user,
+#infos {
+    background-color: #505050;
+    color: #fff;
+    margin: 0 0 15px 0;
+    padding: 10px;
+    border: 5px solid #d6d6d6;
+    border-radius: 9px;
+}
+
+.user:hover {
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.links {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	gap: 30px;
+}
+
+.links > a {
+	text-decoration: none;
+	background-color: #e7e7e7;
+	color: #000;
+	padding: 2px 8px;
+	border-radius: 7px;
+	box-shadow: #121212 2px 2px 8px;
+}
+
+#infos {
+    width: 75%;
+    height: 100%;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+
+.post {
+    padding: 10px;
+    border: 2px inset #fff;
+    margin: 10px 5%;
+    border-radius: 11px;
+    background-color: #393939;
+}
+
+#posts h3 {
+    margin: 5px 0 15px;
+}
+
+#posts p {
+    margin: 0 0 10px;
+}
+
+#details {
+    text-align:center;
+    display:none;
+    height: 40%;
+}
+
+#posts {
+    display: none;
+    height: 100%;
+}
+#map {
+    display: none;
+    height: 60%;
+}
+/* overflow : scrool */

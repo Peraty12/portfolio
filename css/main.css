@@ -1,0 +1,594 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+/* Style pour le menu latéral */
+
+.menu {
+    width: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    /* Hauteur de la fenêtre */
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.sidebare {
+    padding: 10%;
+    margin: 0;
+}
+
+.sidebare a:hover {
+    color: #4291e0;
+}
+
+
+.profilImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.racourcis {
+    list-style: none;
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.racourcis li {
+    margin: 25px;
+    color: white;
+}
+
+.racourcis li a {
+    color: white;
+}
+
+.social_links {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 5px;
+}
+
+.social_links_icon {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    display: flex;
+
+}
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le contenu principal */
+
+.content {
+    margin-left: 250px;
+    /* Décalage pour éviter le chevauchement */
+    /* padding: 50px; */
+}
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le titre de la page d'accueil */
+
+.titre_accueil {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/autre/accueil.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10%;
+}
+
+.titre_accueil h1 {
+    font-family: arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le titre de la page de profil */
+
+.titre_profil {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/autre/nuage.jpg");
+    /* background: linear-gradient(to bottom, transparent, white), url("/img/autre/nuage.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre_profil h1 {
+    font-family: arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+}
+
+.titre_profil img {
+    width: 40px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.description_profil {
+    padding: 5%;
+}
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le titre de la page de BTS SIO */
+
+.titre_bts {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/autre/btssio.jpg");
+    /* background: linear-gradient(to bottom, transparent, white), url("/img/autre/nuage.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre_bts h1 {
+    font-family: arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.description_bts {
+    padding: 5%;
+}
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le titre de la page de parcours */
+
+.titre_parcours {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/autre/parcours.jpg");
+    /* background: linear-gradient(to bottom, transparent, white), url("/img/autre/parcours.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre_parcours h1 {
+    font-family: arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+}
+
+/*-----------------------------------------------*/
+.description_parcours {
+    padding: 5%;
+}
+
+/*-----------------------------------------------*/
+
+.parcours_bts {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 20px;
+    align-items: center;
+}
+
+.parcours_bts div {
+    width: 40%;
+}
+
+.parcours_bts h1 {
+    width: 20%;
+}
+
+.parcours_bts img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+/*-----------------------------------------------*/
+.parcours_bac {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 20px;
+    align-items: center;
+}
+
+.parcours_bac div {
+    width: 40%;
+}
+
+.parcours_bac h1 {
+    width: 20%;
+}
+
+.parcours_bac img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+/*-----------------------------------------------*/
+.parcours_college {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 20px;
+    align-items: center;
+}
+
+.parcours_college h1 {
+    width: 20%;
+}
+
+.parcours_college div {
+    width: 40%;
+}
+
+.parcours_college img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+/*-----------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le titre de la page de stages */
+
+.titre_stages {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/autre/stages.jpg");
+    /* background: linear-gradient(to bottom, transparent, white), url("/img/autre/parcours.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre_stages h1 {
+    font-family: arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+
+}
+
+.description_stages {
+    padding: 5%;
+}
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le stage entreprise */
+
+.entreprise {
+    border: #c4cbd2 solid 1px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    margin: 50px;
+}
+
+
+.entreprise img {
+    width: 40%;
+    height: auto;
+    margin: 20px;
+}
+
+.entreprise_img {
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.photo_entreprise {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+.entreprise_top {
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #7aa3ca;
+}
+
+.entreprise_bottom {
+    padding: 50px;
+}
+
+
+.entreprise_icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 5px;
+}
+
+.entreprise_icon img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le titre de la page de compétences */
+
+.titre_competences {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/autre/competences.jpg");
+    /* background: linear-gradient(to bottom, transparent, white), url("/img/autre/parcours.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre_competences h1 {
+    font-family: arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+
+}
+
+.description_competences {
+    padding: 5%;
+}
+
+/*--------------------------------------------------------------------------*/
+/* Style pour le titre de la page de projets */
+
+.titre_projets {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/autre/projets.jpg");
+    /* background: linear-gradient(to bottom, transparent, white), url("/img/autre/parcours.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre_projets h1 {
+    font-family: arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+
+}
+
+.description_projets {
+    padding: 5%;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.bts_notion {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: max-content;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+.bts_notion img {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+}
+
+
+.bts_notion p {
+    display: flex;
+    justify-content: center;
+}
+
+.bts_info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 20px;
+}
+
+.bts_info h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.bts_slam {
+    width: 40%;
+    background-color: #e49999;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+.bts_slam h1 {
+    align-items: center;
+}
+
+.bts_slam img {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.bts_sisr {
+    width: 40%;
+    background-color: #99d2e4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+.bts_sisr h1 {
+    align-items: center;
+}
+
+.bts_sisr img {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+
+
+/*--------------------------------------------------------------------------*/
+/* cartes compétences */
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+}
+
+.skill-card img {
+    width: 50px;
+    height: auto;
+}
+
+.skill-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------*/
+/* cartes attestation */
+
+.attestation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.attestation_card {
+    background: linear-gradient(to bottom right, rgb(165, 138, 17), rgb(249, 253, 4));
+    padding: 30px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 15px rgb(255, 4, 0);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.attestation_card:hover {
+    transform: scale(1.1);
+}
+
+.attestation_card img {
+    width: 70px;
+    height: auto;
+}
+
+.attestation_card p {
+    margin-top: 10px;
+    font-size: 14px;
+
+    text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 30px rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+/* ---------------------------------- */
+/* modale */
+
+.pdfModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pdfModalContent {
+    position: relative;
+    margin: 1% auto;
+    padding: 10px;
+    width: 80%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.pdfModalContent iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
