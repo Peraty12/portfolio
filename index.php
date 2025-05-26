@@ -30,7 +30,7 @@
 			</div>
 			<div class="description_profil">
 
-				<p>Salut !!! Je m'appelle Teddy Xiong (Kos ou Nus-Txiag, mes autres pr2noms d'origine Hmong). J'ai 20 ans, né le 12 janvier 2005 et je suis actuellement étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations),
+				<p>Salut !!! Je m'appelle Teddy Xiong (Kos ou Nus-Txiag, mes autres prénoms d'origine Hmong). J'ai 20 ans, né le 12 janvier 2005 et je suis actuellement étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations),
 					option SLAM (Solutions Logicielles Applications Métiers) au sein du lycée Claude Nougaro à Monteils.</p>
 
 				<p>Étant passionné depuis tout petit par les jeux vidéos jusqu'à l'informatique dès à présent, j'ai suivi cette formation afin de découvrir comment sont développé les logiciels et jeux vidéos.
@@ -217,6 +217,7 @@
 						<p>Outils et language utilisés :</p>
 						<div class="entreprise_icon">
 							<img src="img/icon/vs.png">
+							<img src="img/icon/vscode.png">
 							<img src="img/icon/c-sharp.png">
 							<img src="img/icon/wireshark.png">
 							<img src="img/icon/multiway.png">
@@ -239,7 +240,7 @@
 					<div class="entreprise_top">
 						<h2>2021/2024 - ABSOGER</h2>
 						<h3>Stage 1er année BTS SIO | 27 Mai 2024 - 28 Juin 2024</h3>
-						<h3>Stage 1er BAC Pro SN | 22 novembre 2021 - 18 decembre 2021</h3>
+						<h3>Stage Première Bac Pro SN | 22 novembre 2021 - 18 decembre 2021</h3>
 					</div>
 					<div class="entreprise_bottom">
 						<div class="entreprise_img">
@@ -273,6 +274,8 @@
 						<p>Outils et language utilisés :</p>
 						<div class="entreprise_icon">
 							<img src="img/icon/python.png">
+							<img src="img/icon/thonny.png">
+							<img src="img/icon/vscode.png">
 							<img src="img/icon/raspberry.png">
 							<img src="img/icon/labview.png">
 							<img src="img/icon/multiway.png">
@@ -295,7 +298,7 @@
 					<div class="entreprise_top">
 						<h2>2022/2024 - MAF RODA</h2>
 						<h3>Stage Terminal Bac Pro SN | 16 janvier 2023 - 17 fevrier 2023 & 7 mars 2023 - 24 mars 2023</h3>
-						<h3>Stage Première BAC Pro SN | 28 mars 2022 - 23 avril 2022</h3>
+						<h3>Stage Première Bac Pro SN | 28 mars 2022 - 23 avril 2022</h3>
 					</div>
 					<div class="entreprise_bottom">
 						<div class="entreprise_img">
@@ -361,8 +364,8 @@
 				<h1>Compétences</h1>
 			</div>
 			<div class="description_competences">
-				<div>
-					<h2>languages</h2>
+				<div class="titre_h2">
+					<h2>Langages</h2>
 					<div class="skills">
 						<div class="skill-card">
 							<img src="img\icon\python.png" alt="HTML">
@@ -402,15 +405,9 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div class="titre_h2">
 					<div>
 						<h2>Outils et logiciels</h2>
-						<p>Systèmes d'exploitation</p>
-						<!-- <ul>
-							<li>MS office</li>
-							<li>System Windows</li>
-						<li>System Linux</li>
-					</ul> -->
 						<div class="skills">
 							<div class="skill-card">
 								<img src="img\icon\microsoft.png" alt="HTML">
@@ -433,18 +430,7 @@
 								<p>Raspberry PI 4</p>
 							</div>
 						</div>
-						<p>Programmation et développement</p>
-						<!-- <ul>
-							<li>WordPress</li>
-							<li>Visual Studio Code</li>
-							<li>Visual Studio</li>
-							<li>Wampserver64</li>
-							<li>NetBeans</li>
-							<li>CodeIgniter4</li>
-							<li>Github</li>
-							<li>LabVIEW</li>
-							<li>ModbusConstructor</li>
-						</ul> -->
+						<h3>Programmation et développement</h3>
 						<div class="skills">
 							<div class="skill-card">
 								<img src="img\icon\wordpress.png" alt="HTML">
@@ -499,12 +485,7 @@
 								<p>EduPython</p>
 							</div>
 						</div>
-						<p>Données</p>
-						<!-- <ul>
-							<li>WinDesign</li>
-							<li>phpMyAdmin</li>
-							<li>PgAdmin</li>
-						</ul> -->
+						<h3>Données</h3>
 						<div class="skills">
 							<div class="skill-card">
 								<img src="img\icon\windesign.png" alt="HTML">
@@ -519,15 +500,7 @@
 								<p>PgAdmin</p>
 							</div>
 						</div>
-						<p>Réseaux, communication et virtualisation</p>
-						<!-- <ul>
-							<li>Cisco Packet Tracer</li>
-							<li>Putty</li>
-							<li>Oracle VM VirtualBox</li>
-							<li>Multiway</li>
-							<li>Wireshark</li>
-							<li>MS Azure</li>
-						</ul> -->
+						<h3>Réseaux, communication et virtualisation</h3>
 						<div class="skills">
 							<div class="skill-card">
 								<img src="img\icon\packet-tracert.png" alt="HTML">
@@ -568,7 +541,7 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div class="titre_h2">
 					<h2>Certification et attestation</h2>
 
 					<div class="attestation">
@@ -631,22 +604,119 @@
 						</div>
 
 					</div>
+					<div class="tableau_synthese">
+						<h1>Tableau de synthèse des compétences</h1>
+						<img src="doc/tableau_synthese.jpg">
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<section id="Projets">
+
 			<div class="titre_projets">
 				<h1>Projets</h1>
 			</div>
+
 			<div class="description_projets">
-				<ul>
-					<li>
-						<h2>Site web portfolio</h2>
-						<p>Site web de présentation de mon parcours scolaire et professionnel, mes compétences et mes projets.</p>
-						<p>Technologies utilisées : HTML, CSS, JavaScript, PHP</p>
-					</li>
-				</ul>
+
+				<div class="lien_projet">
+					<a href="doc/bts/ap1/documentation_cms_ap1.pdf" target="_blank">
+						<img src="img/icon/wordpress.png">
+						<h1>Documentation projet AP1</h1>
+					</a>
+				</div>
+				<div class="lien_projet">
+					<a href="doc/bts/ap2/documentation_filou_ap2.pdf" target="_blank">
+						<img src="img/icon/php.png">
+						<h1>Documentation projet AP2</h1>
+					</a>
+				</div>
+
+				<div class="lien_projet">
+					<a href="doc/bts/reseau/tp_ms_azure_xiongteddy.pdf" target="_blank">
+						<img src="img/icon/azure.png">
+						<h1>TP Microsoft Azure</h1>
+					</a>
+				</div>
+
+
+				<div class="lien_projet">
+					<a href="doc/bts/ap3/documentation_amset_ap3.pdf" target="_blank">
+						<img src="img/icon/codeigniter.png">
+						<h1>Documentation projet AP3</h1>
+					</a>
+				</div>
+
+				<div class="lien_projet">
+					<a href="doc/bts/mooc_anssi.pdf" target="_blank">
+						<img src="img/icon/secnum-anssi.png">
+						<h1>Atestation MOOC ANSSI</h1>
+					</a>
+				</div>
+
+				<div class="lien_projet">
+					<a href="doc/bts/ap4/documentation_amset_ap4.pdf" target="_blank">
+						<img src="img/icon/java.png">
+						<h1>Documentation projet AP4</h1>
+					</a>
+				</div>
+
+				<div class="lien_projet">
+					<a href="doc/bts/stage/documentation_labview_interface.pdf" target="_blank">
+						<img src="img/icon/labview.png">
+						<h1>Documentation projet LabVIEW</h1>
+					</a>
+				</div>
+
+				<div class="lien_projet">
+					<a href="doc/bts/stage/documentation_projetsolarpanel_v2.pdf" target="_blank">
+						<img src="img/autre/logo-agileo-picto.png">
+						<h1>Documentation V2 projet SolarPanel</h1>
+					</a>
+				</div>
+				<div class="lien_projet">
+					<a href="doc/bts/stage/documentation_projet_solarpanel.pdf" target="_blank">
+						<img src="img/autre/logo-agileo-picto.png">
+						<h1>Documentation projet SolarPanel</h1>
+					</a>
+				</div>
+				<div class="lien_projet">
+					<a href="doc/bts/stage/uml_market.pdf" target="_blank">
+						<img src="img/autre/logo-agileo-picto.png">
+						<h1>Maquette UML - Agileo</h1>
+					</a>
+				</div>
+				<div class="lien_projet">
+					<a href="doc/bts/donnees/td_plp_mcd.pdf" target="_blank">
+						<img src="img/icon/windesign.png">
+						<h1>TP PLP MCD</h1>
+					</a>
+				</div>
+				<div class="lien_projet">
+					<a href="doc/bts/donnees/tp_init_postgressql.pdf" target="_blank">
+						<img src="img/icon/pgadmin.png">
+						<h1>TP initiation PostgresSQL</h1>
+					</a>
+				</div>
+				<div class="lien_projet">
+					<a href="doc/bts/donnees/tp_prog_postgressql.pdf" target="_blank">
+						<img src="img/icon/pgadmin.png">
+						<h1>TP programmation PostgresSQL</h1>
+					</a>
+				</div>
+				<div class="lien_projet">
+					<a href="doc/bac_pro/rds_antenne_elec.pdf" target="_blank">
+						<img src="img/autre/logo-antenne_elec.jpg">
+						<h1>Rapport de Stage Antenne-Elec</h1>
+					</a>
+				</div>
+				<div class="lien_projet">
+					<a href="doc/bac_pro/rds_maf.pdf" target="_blank">
+						<img src="img/autre/logo-maf_roda.jpg">
+						<h1>Rapport de Stage MAF RODA</h1>
+					</a>
+				</div>
 			</div>
 		</section>
 
