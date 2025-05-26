@@ -421,8 +421,8 @@ body {
 
 
 .lien_projet {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     border: #000000 solid 1px;
     border-radius: 10px;
     margin: 50px;
@@ -432,7 +432,7 @@ body {
 .lien_projet h1 {
     text-align: center;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     color: #000000;
 }
 .lien_projet img {
