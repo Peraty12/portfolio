@@ -69,7 +69,11 @@ body {
 
 }
 
-
+.coo {
+    font-size: large;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+}
 
 
 /*--------------------------------------------------------------------------*/
@@ -379,6 +383,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .titre_h2 h2 {
     text-align: center;
 }
@@ -387,7 +392,7 @@ body {
     text-align: center;
 }
 
-.tableau_synthese{
+.tableau_synthese {
     text-align: center;
 }
 
@@ -435,6 +440,7 @@ body {
     font-size: 20px;
     color: #000000;
 }
+
 .lien_projet img {
     width: 100%;
     height: 100%;
@@ -635,5 +641,72 @@ body {
 }
 
 
-/* -------------------------------------------- */
-/* lien projet */
+/*--------------------------------------------------------------------------*/
+/* Style pour le titre de la veile */
+
+.titre_veille {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/img/autre/veille.jpg");
+    /* background: linear-gradient(to bottom, transparent, white), url("/img/autre/parcours.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titre_veille h1 {
+    font-family: arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+}
+
+.description_veille {
+    padding: 5%;
+}
+
+.guido {
+    height: 200px;
+    width: auto;
+    margin:  40px;
+}
+
+
+.img_python {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.point_python {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 20px;
+}
+
+.point_python li{
+    list-style: none;
+    
+}
+
+.veille {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    background-color: #7ea9d3;
+}
+
+.veille_python {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    background-color: #e8da5c;
+}

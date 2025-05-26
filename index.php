@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Portfolio XIONG Teddy</title>
+	<title>Portfolio | XIONG Teddy</title>
 	<meta charset="UTF-8" />
 	<link href="css/main.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -690,7 +690,7 @@
 				<div class="lien_projet">
 					<a href="doc/bts/donnees/td_plp_mcd.pdf" target="_blank">
 						<img src="img/icon/windesign.png">
-						<h1>TP PLP MCD</h1>
+						<h1>TD PLP MCD</h1>
 					</a>
 				</div>
 				<div class="lien_projet">
@@ -724,6 +724,50 @@
 			<div class="titre_veille">
 				<h1>Veille Technologique</h1>
 			</div>
+			<div class="description_veille">
+				<div class="veille">
+					<h1>Qu'est-ce que la veille technologique ?</h1>
+					<p>La veille technologique est un processus continu qui consiste à surveiller les évolutions
+						technologiques, les tendances du marché et les innovations dans le domaine de l'informatique et
+						du numérique. Elle permet aux professionnels de rester informés des dernières avancées, de
+						détecter les opportunités et de s'adapter aux changements rapides du secteur.</p>
+					<p>La veille technologique peut inclure la recherche d'articles, de publications scientifiques,
+						de blogs, de forums, de conférences et d'événements liés à l'informatique. Elle peut également
+						impliquer l'analyse des nouvelles technologies, des outils et des langages de programmation,
+						ainsi que l'examen des tendances émergentes telles que l'intelligence artificielle, la
+						cybersécurité, le cloud computing et bien plus encore...</p>
+				</div>
+				<div class="veille_python">
+					<h1>Pourquoi se concentrer sur Python ?</h1>
+					<p>Python est un langage de programmation polyvalent populaire,
+						utilisé dans le développement web, l'analyse de données,
+						l'intelligence artificielle et bien d'autres
+						domaines. Il est apprécié pour sa simplicité, sa lisibilité et sa vaste bibliothèque de
+						ressources.</p>
+					<div class="point_python">
+						<div>
+							<img src="img/autre/guido.jpg" class="guido">
+						</div>
+						<div>
+							<ul>
+								<li>Créer en 1991 par Guido van Rossum</li>
+								<li>Syntaxe facile et intuitif</li>
+								<li>Language interprété, haut niveau, multi-paradigme(objet, fonctionnel, impératif)</li>
+								<li>Large bibliothèques et frameworks (Django, Flask, NumPy, Pandas, PyTorch, TensorFlow, etc.).</li>
+								<li> Domaine developpement web, data science, IA, automatisation, etc...</li>
+							</ul>
+							<p><a href="https://www.python.org/" target="_blank">Site officiel de Python</a></p>
+							<p><a href="https://blog.python.org/" target="_blank">Anonce nouvelles versions et évolutions</a></p>
+							<p><a href="https://www.zdnet.fr/actualites/programmation-python-reste-en-tete-39890391.htm" target="_blank">Python reste en tête</a></p>
+						</div>
+					</div>
+					<img src="img/autre/tableau_python.png" class="img_python">
+					<p>Source : <a href="https://www.tiobe.com/tiobe-index/">www.tiobe.com</a></p>
+				</div>
+				<div>
+
+				</div>
+
 		</section>
 
 		<footer>
