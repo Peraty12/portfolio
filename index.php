@@ -779,7 +779,7 @@
 				</div>
 				<div class="comptes_py">
 					<h1>Python et le web</h1>
-					<p>Grâce à des frameworks comme Django et Flask, Python est largement utilisé pour créer des sites web,
+					<p>Grâce à des frameworks comme Django et Flask, Python est aussi utilisé pour créer des sites web,
 						des API et des applications web performantes. Ces outils permettent de développer
 						rapidement des services robustes, avec une bonne intégration des bases de données, de la
 						sécurité et des outils de test.</p>
