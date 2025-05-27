@@ -768,7 +768,7 @@
 
 				<div class="comptes_py">
 					<h1>Évolution du langage</h1>
-					<p>Python, créé en 1991, est arrivé à sa version 3.12 (2023), avec des améliorations majeures en performance et en typage.
+					<p>Python, créé en 1991, est arrivé à sa version 3.13.3, avec des améliorations majeures en performance.
 						La communauté continue de faire évoluer le langage pour répondre aux besoins modernes,
 						notamment avec des projets comme PyPy (interpréteur rapide) et Cython (compilation vers C).
 						Le langage reste simple et accessible, ce qui explique son immense popularité.</p>
