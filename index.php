@@ -168,7 +168,7 @@
 						<i class="material-icons">&#xe55e;</i>
 						<a href="https://maps.app.goo.gl/T63BGgM9tDfAp8T98" target="_blank">3 Bd Edouard Herriot, 82000 Montauban</a>
 						<p>Relevé de notes du Bac :<a href="doc/releve_notes_bac.pdf" target="_blank"> notes</a></p>
-						<p>Voeux de poursuite àprès le Bac :<a href="doc/bac_pro/voeu_poursuite_etude" target="_blank"> avis</a></p>
+						<p>Voeux de poursuite àprès le Bac :<a href="doc/bac_pro/voeu_poursuite_etude.pdf" target="_blank"> avis</a></p>
 					</div>
 					<div>
 						<img src="img/autre/lycee_antoine_bourdelle.jpg">
