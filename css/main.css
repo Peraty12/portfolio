@@ -403,9 +403,13 @@ body a {
 
 .tableau_synthese {
     text-align: center;
-    width: 400px;
+}
+
+.tableau_synthese img {
+    width: 80%;
     height: auto;
 }
+    
 
 /*--------------------------------------------------------------------------*/
 /* Style pour le titre de la page de projets */
