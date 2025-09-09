@@ -168,7 +168,7 @@
 						<i class="material-icons">&#xe55e;</i>
 						<a href="https://maps.app.goo.gl/T63BGgM9tDfAp8T98" target="_blank">3 Bd Edouard Herriot, 82000 Montauban</a>
 						<p>Relevé de notes du Bac :<a href="doc/releve_notes_bac.pdf" target="_blank"> notes</a></p>
-						<p>Voeux de poursuite àprès le Bac :<a href="doc/bac_pro/voeu_poursuite_etude" target="_blank"> avis</a></p>
+						<p>Voeux de poursuite àprès le Bac :<a href="doc/bac_pro/voeu_poursuite_etude.pdf" target="_blank"> avis</a></p>
 					</div>
 					<div>
 						<img src="img/autre/lycee_antoine_bourdelle.jpg">
@@ -768,7 +768,7 @@
 
 				<div class="comptes_py">
 					<h1>Évolution du langage</h1>
-					<p>Python, créé en 1991, est arrivé à sa version 3.12 (2023), avec des améliorations majeures en performance et en typage.
+					<p>Python, créé en 1991, est arrivé à sa version 3.13.3, avec des améliorations majeures en performance.
 						La communauté continue de faire évoluer le langage pour répondre aux besoins modernes,
 						notamment avec des projets comme PyPy (interpréteur rapide) et Cython (compilation vers C).
 						Le langage reste simple et accessible, ce qui explique son immense popularité.</p>
@@ -779,7 +779,7 @@
 				</div>
 				<div class="comptes_py">
 					<h1>Python et le web</h1>
-					<p>Grâce à des frameworks comme Django et Flask, Python est largement utilisé pour créer des sites web,
+					<p>Grâce à des frameworks comme Django et Flask, Python est aussi utilisé pour créer des sites web,
 						des API et des applications web performantes. Ces outils permettent de développer
 						rapidement des services robustes, avec une bonne intégration des bases de données, de la
 						sécurité et des outils de test.</p>
