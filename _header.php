@@ -19,6 +19,6 @@
         <li><a href="javascript:void(0);" onclick="scrollToElement('Stages')">Stages</a></li>
         <li><a href="javascript:void(0);" onclick="scrollToElement('Compétences')">Compétences</a></li>
         <li><a href="javascript:void(0);" onclick="scrollToElement('Projets')">Projets</a></li>
-        <li><a href="javascript:void(0);" onclick="scrollToElement('VeilTechcno')">Veille</a></li>
+        <!-- <li><a href="javascript:void(0);" onclick="scrollToElement('VeilTechcno')">Veille</a></li> -->
     </ul>
 </div>
