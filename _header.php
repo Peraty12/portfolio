@@ -4,11 +4,11 @@
     <div>
         <img src="img/autre/profil.jpg" class="profilImg">
     </div>
-    <div class="social_links" alt="Liens vers les réseaux sociaux">
+    <!-- <div class="social_links" alt="Liens vers les réseaux sociaux">
         <a href="https://github.com/Peraty12" target="_blank" class="social_links_icon"><img src="img/icon/github.png"></a>
         <a href="https://www.linkedin.com/in/teddy-xiong-26b422359/" target="_blank" class="social_links_icon"><img src="img/icon/linkedin.png"></a>
         <a href="https://instagram.com/ted.xng" target="_blank" class="social_links_icon"><img src="img/icon/instagram.png"></a>
-    </div>
+    </div> -->
     <p class="coo">07 69 12 51 04</p>
     <p class="coo">teddy82xiong@gmail.com</p>
     <ul class="racourcis">

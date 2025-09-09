@@ -30,7 +30,7 @@
 			</div>
 			<div class="description_profil">
 
-				<p>Salut !!! Je m'appelle Teddy Xiong (Kos ou Nus-Txiag, mes autres prénoms d'origine Hmong). J'ai 20 ans, né le 12 janvier 2005 et je suis actuellement étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations),
+				<p>Salut !!! Je m'appelle Teddy Xiong (Kos ou Nus-Txiag, mes autres prénoms d'origine Hmong). J'ai 20 ans, né le 12 janvier 2005 et je vient d'être diplomé d'un BTS SIO (Services Informatiques aux Organisations),
 					option SLAM (Solutions Logicielles Applications Métiers) au sein du lycée Claude Nougaro à Monteils.</p>
 
 				<p>Étant passionné depuis tout petit par les jeux vidéos jusqu'à l'informatique dès à présent, j'ai suivi cette formation afin de découvrir comment sont développé les logiciels et jeux vidéos.
@@ -721,7 +721,7 @@
 			</div>
 		</section>
 
-		<section id="VeilTechcno">
+		<!-- <section id="VeilTechcno">
 			<div class="titre_veille">
 				<h1>Veille Technologique</h1>
 			</div>
@@ -809,7 +809,8 @@
 
 				</div>
 
-		</section>
+		</section> -->
+		
 
 		<footer>
 			<?php include('_footer.php') ?>
